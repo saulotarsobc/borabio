@@ -9,3 +9,11 @@
     box-sizing: border-box;
     font-family: 'Poppins Regular';
 }
+
+body {
+    display: flex;
+    background-color: rebeccapurple;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
