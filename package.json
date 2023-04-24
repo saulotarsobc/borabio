@@ -4,7 +4,8 @@
   "description": "links para bio de instagram",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass -w sass/main.scss css/main.min.css -s compressed",
+    "serve": "serve -p 80"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/saulotarsobc/borabio/issues"
   },
-  "homepage": "https://github.com/saulotarsobc/borabio#readme"
+  "homepage": "https://github.com/saulotarsobc/borabio#readme",
+  "devDependencies": {
+    "sass": "^1.62.0",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "@iconscout/unicons": "^4.0.8"
+  }
 }
